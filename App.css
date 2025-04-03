@@ -1,0 +1,74 @@
+body{
+  justify-items: center;  
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  margin-top: 60px;
+  height: 400px;
+  width: 400px;
+  border:2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px red;
+  background-color: #fafafa;
+  padding: 3rem;
+
+}
+
+.total{
+  height: 390px;
+
+  border-radius: 50%;
+  border: 1px solid rgb(216, 21, 21);
+
+}
+
+
+.logo{
+  justify-items: center;
+  justify-content: center;
+  padding-right: 40px;
+  margin-left: 400px;
+  font-size: 20px;
+  ;
+}
+
+.total-amount-number{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding: 4rem;
+  color: black;
+  
+}
+.button-collection{
+  margin-top: 61px ;
+  margin-bottom: 1rem;
+
+}
+.center-button{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+}
+.btn-one{
+  background-color: #fafafa !important;
+  width: 75px;
+  border-radius: 100px !important;
+  height: 75px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.posse-button-icon{
+  color: black;
+  font-size: 30px;
+}
